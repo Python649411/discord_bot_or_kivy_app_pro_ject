@@ -18,7 +18,7 @@ async def on_message(message):
         return
         
     if message.content == "!hello" or message.content == "!hi":
-        await message.channel.send("Hello!") #Hello라고 메시지 보내기
+        await message.channel.send("Hello!") #사용자가 !hello 또는 !hi라고 입력했을때 봇이 Hello!라고 말하기
 
 @client.event
 async def on_connect():
