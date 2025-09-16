@@ -21,6 +21,7 @@ or message.content == ""
 if message.content == "!안녕" or message.content == "!안녕하세요":
     await message.channel.send()
 ```
+#다음단계
 ```
 await message.channel.send()
 ```
