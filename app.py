@@ -7,6 +7,7 @@ from kivy.uix.label import Label
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 from kivy.core.audio import SoundLoader
+from kivy.uix.image import image
 import random
 #음식들 인덱스
 
