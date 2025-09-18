@@ -22,7 +22,7 @@ class 운세뽑기App(App):
 
     def build(self):
         self.sound_swoosh = SoundLoader.load('swoosh.mp3')
-        
+        image1 = image(source=")
         layout = BoxLayout(orientation="vertical")
         
 
