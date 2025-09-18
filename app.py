@@ -7,7 +7,7 @@ from kivy.uix.label import Label
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 from kivy.core.audio import SoundLoader
-from kivy.uix.image import image
+from kivy.uix.image import Image
 import random
 #음식들 인덱스
 
@@ -22,7 +22,7 @@ class 운세뽑기App(App):
 
     def build(self):
         self.sound_swoosh = SoundLoader.load('swoosh.mp3')
-        image1 = image(source='')
+        image1 = Image(source='ima.png')
         layout = BoxLayout(orientation="vertical")
         
 
@@ -35,8 +35,9 @@ class 운세뽑기App(App):
        
         
         layout.add_widget(self.menu_label)
-        layout.add_widget(button)
         layout.add_widget(image1)
+        layout.add_widget(button)
+        
         return layout
     
         
