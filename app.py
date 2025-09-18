@@ -36,7 +36,7 @@ class 운세뽑기App(App):
         
         layout.add_widget(self.menu_label)
         layout.add_widget(button)
-    
+        layout.add_widget(image1)
         return layout
     
         
