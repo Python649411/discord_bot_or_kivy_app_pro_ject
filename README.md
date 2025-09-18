@@ -36,6 +36,17 @@ await message.channel.send()
 if message.content == "!안녕" or message.content == "!안녕하세요":
     await message.channel.send("안녕하세요!")
 ```
-#다른 기능은 다음에 설명!
+# 다른 기능 설명
+```
+@bot.command(name="delete")
+@commands.has_role("MessageManager")
+async def delete_message(ctx):
+    await ctx.channel.purge(limit=None)
+
+@bot.event
+async def on_command_error(ctx, error):
+    pprint("Command error")
+```
+# 이 코드는 메시지 삭제 기능이다
 
 
