@@ -1,5 +1,5 @@
 
-import kivy 
+import kivy
 from kivy.uix.togglebutton import ToggleButton
 from kivy.animation import Animation
 from kivy.app import App
@@ -26,7 +26,7 @@ class 운세뽑기App(App):
         layout = BoxLayout(orientation="vertical")
         
 
-        self.ko = ["오늘은 여친이 생기실거에요","오늘은 부자가 되실거예요","오늘은 날씨가 안좋아서 비를 맞을거에요"]
+        self.ko = ["오늘은 여친이 생기실거에요","오늘은 부자가 되실거예요","오늘은 날씨가 안좋아서 비를 맞을거에요","오늘은 포경수술을 할거예요"]
        
         self.menu_label = Label(text='오늘의 운세 뽑기! 오늘도 힘차게 아자아자!', font_name='BMJUA_ttf.ttf', font_size=30)
         button = Button(text='지금 운세뽑기',font_name='BMJUA_ttf.ttf',size_hint_y=None, height=100 , font_size=50)
