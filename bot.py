@@ -27,7 +27,11 @@ async def on_message(message):
     	await message.channel.send("58년 남으셧습니다!")
 		
 	if message.content == "파이썬 좋아" or message.content == "파이썬 좋다":
-    	await message.channel.send("# Me too😎")		
+    	await message.channel.send("# Me too😎")
+# 진민이형 여기 수정
+	if message.content == "!안녕" or message.content == "!안녕하세요":
+    	await message.channel.send("안녕하세요 올리버봇입니다 와 좆탱이 보소")
+		
 @client.event
 async def on_connect():
     pprint("connect to discord") # 봇이 디스코드에 접속했을때
