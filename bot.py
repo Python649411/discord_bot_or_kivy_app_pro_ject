@@ -29,7 +29,7 @@ async def on_message(message):
 	if message.content == "파이썬 좋아" or message.content == "파이썬 좋다":
     	await message.channel.send("# Me too😎")
 # 진민이형 여기 수정
-	if message.content == "!안녕" or message.content == "!안녕하세요":
+	if message.content == "일어나 넌 조선에 자존심이야 일어나 일어나야해!" or message.content == "!안녕하세요":
     	await message.channel.send("안녕하세요 올리버봇입니다 와 좆탱이 보소")
 		
 @client.event
