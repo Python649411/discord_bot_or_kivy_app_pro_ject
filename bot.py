@@ -36,7 +36,7 @@ async def on_message(message):
         await message.channel.send("https://tenor.com/view/verycat-cateat-gif-7339469281817108398")
     #세민이
     if message.content == "!WOW" or message.content == "!와":
-        await message.channel.send("https://media1.tenor.com/m/dGeybdsH81QAAAAd/guy-singing-opera-opera.gif")
+        await message.channel.send("https://tenor.com/view/guy-singing-opera-opera-guy-mouth-open-mouth-open-wide-mouth-gif-20394358")
    
     
 
