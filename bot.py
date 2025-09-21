@@ -27,7 +27,7 @@ async def on_message(message):
         await message.channel.send("58년 남으셧습니다!")
     #세민이
     if message.content == "!파이썬 좋아" or message.content == "!파이썬 좋다":
-        await message.channde.send("# Me too!")
+        await message.channel.send("# Me too!")
 # 진민이형
     if message.content == "일어나 넌 조선에 자존심이야 일어나 일어나야해!" or message.content == "!조선":
         await message.channel.send("# 굿모닝 땡땡땡!! 빠빠빠 빠빠빠빠빠빠 굿모닝 빠빠빠 빠빠빠빠빠빠 굿모닝 빠빠빠 빠빠빠빠빠빠 is`beautiful day 띵띵띵")
@@ -37,6 +37,9 @@ async def on_message(message):
     #세민이
     if message.content == "!WOW" or message.content == "!와":
         await message.channel.send("https://tenor.com/view/guy-singing-opera-opera-guy-mouth-open-mouth-open-wide-mouth-gif-20394358")
+    #세민이 (욕설 감지 코드)
+    if message.content == "시발" or message.content == "병신" or message.content == "ㅅㅂ" or message.content == "느금마" or message.content == "ㅂㅅ" or "ㄴㄱㅁ":
+        await message.channel.send("# !!욕설이 감지되었습니다 욕을 하지 말아주세요.")
    
     
 
