@@ -37,7 +37,7 @@ async def on_message(message):
     #세민이
     if message.content == "!WOW" or message.content == "!와":
         await message.channel.send("https://tenor.com/view/guy-singing-opera-opera-guy-mouth-open-mouth-open-wide-mouth-gif-20394358")
-    #세민이 (욕설 감지 코드)
+    #세민이 (욕설 감지 코드)(이 기능은 오류를 내서 주석처리합니다.)
     #if message.content == "시발" or message.content == "병신" or message.content == "ㅅㅂ" or message.content == "느금마" or message.content == "ㅂㅅ" or "ㄴㄱㅁ":
         #await message.channel.send("# !!욕설이 감지되었습니다 욕을 하지 말아주세요.")
    
