@@ -7,6 +7,7 @@ from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 from kivy.core.audio import SoundLoader
 #from kivy.uix.image import Image
+from kivy.uix.textinput import TextInput
 import random
 
 kivy.require('2.3.1')
@@ -24,7 +25,7 @@ class 한글자음모음뽑기App(App):
         self.text0 = Label(text='한글 자&모음을 뽑아보세요!',font_name='BMJUA_ttf.ttf', font_size=30)
         button = Button(text='자음뽑기',font_name='BMJUA_ttf.ttf',size_hint_y=None, height=100 , font_size=50)
         button1 = Button(text='모음뽑기',font_name='BMJUA_ttf.ttf',size_hint_y=None, height=100 , font_size=50)
-
+        text_box(text=여기에 텍스트를 입력하세요)
         self.a1 = ['ㄱ','ㄴ','ㄷ','ㄹ','ㅂ','ㅅ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ']
         self.b2 = ['ㅏ','ㅐ', 'ㅑ', 'ㅒ', 'ㅓ','ㅔ', 'ㅕ','ㅖ','ㅗ','ㅘ','ㅙ','ㅚ','ㅛ','ㅜ','ㅝ','ㅞ', 'ㅟ','ㅠ','ㅡ','ㅢ','ㅣ']
 
@@ -34,6 +35,7 @@ class 한글자음모음뽑기App(App):
         layout.add_widget(self.text0)
         layout.add_widget(button)
         layout.add_widget(button1)
+        layout.add_widget(text_box)
 
         return layout
     
