@@ -26,7 +26,7 @@ class 한글자음모음뽑기App(App):
         button1 = Button(text='모음뽑기',font_name='BMJUA_ttf.ttf',size_hint_y=None, height=100 , font_size=50)
 
         self.a1 = ['ㄱ','ㄴ','ㄷ','ㄹ','ㅂ','ㅅ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ']
-        self.b2 = ['ㅏ', 'ㅑ', 'ㅓ', 'ㅕ', 'ㅗ', 'ㅛ', 'ㅜ', 'ㅠ', 'ㅡ', 'ㅣ']
+        self.b2 = ['ㅏ','ㅐ', 'ㅑ', 'ㅒ', 'ㅓ','ㅔ', 'ㅕ','ㅖ','ㅗ','ㅘ','ㅙ','ㅚ','ㅛ','ㅜ','ㅝ','ㅞ', 'ㅟ','ㅠ','ㅡ','ㅢ','ㅣ']
 
         button.bind(on_press=self.a)
         button1.bind(on_press=self.b)
